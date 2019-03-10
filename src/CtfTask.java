@@ -26,7 +26,7 @@ public class CtfTask {
     }
 
 
-    private static void saveInFile() {
+    private static void saveInFile() {//
         try {
             String[] strings = new String[input.length];
             BufferedReader[] bufferedReaders = new BufferedReader[(input.length)];//
